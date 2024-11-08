@@ -1,0 +1,132 @@
+/* General Body and Layout */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+}
+
+.container {
+    width: 80%;
+    max-width: 900px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Header and Branding */
+header {
+    background-color: #4CAF50;
+    padding: 20px;
+    color: white;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+/* Form Styles */
+form {
+    margin-bottom: 20px;
+}
+
+input, button {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+/* Status Message */
+.status-message {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 18px;
+    color: #444;
+}
+
+/* Post Preview Styles */
+.post-preview {
+    margin-top: 30px;
+}
+
+.post {
+    margin-bottom: 20px;
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.post h4 {
+    margin: 0;
+    color: #333;
+}
+
+.post p {
+    color: #666;
+    line-height: 1.6;
+}
+
+/* Instagram and Facebook Styles */
+.instagram-post, .facebook-post {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    background-color: #f9f9f9;
+}
+
+.instagram-post {
+    background-color: #fafafa;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.instagram-post p {
+    font-size: 16px;
+    font-weight: bold;
+    color: #3f729b;
+}
+
+.facebook-post {
+    background-color: #f5f5f5;
+}
+
+.facebook-post p {
+    font-size: 15px;
+    color: #4f4f4f;
+}
+
+/* Add More Button */
+.generate-more-btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #3b8f5b;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.generate-more-btn:hover {
+    background-color: #338d4f;
+}

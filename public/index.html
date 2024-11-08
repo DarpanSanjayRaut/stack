@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Social Media Content Generator | GrowStack</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="/socket.io/socket.io.js"></script>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>GrowStack</h1>
+        </div>
+    </header>
+
+    <div class="container">
+        <h2>Create Social Media Post</h2>
+        <form id="taskForm">
+            <input type="text" id="keywords" placeholder="Enter Keywords" required>
+            <input type="url" id="url" placeholder="Enter URL (optional)">
+            <input type="datetime-local" id="datetime" required>
+            <button type="submit">Submit Task</button>
+        </form>
+
+        <div id="statusMessage" class="status-message"></div>
+
+        <div id="postPreview" class="post-preview"></div>
+
+        <button id="generateMoreBtn" class="generate-more-btn" style="display:none;">Generate More Posts</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
